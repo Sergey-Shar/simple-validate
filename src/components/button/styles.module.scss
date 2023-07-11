@@ -7,6 +7,7 @@
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
+  user-select: none;
   transition: background-color 0.5s ease, scale 0.5s ease ;
   &:hover{
     background-color:#1977f2

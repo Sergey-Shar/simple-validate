@@ -48,7 +48,7 @@ export const Auth = () => {
           placeholder="email..."
           labelText="Ваш Email"
           value={formData.email}
-          onChangeInput={handleChange}
+          onChange={handleChange}
           errorMessage={errors?.email}
         />
         <Field
@@ -58,7 +58,7 @@ export const Auth = () => {
           placeholder="пароль..."
           labelText="Ваш пароль"
           value={formData.password}
-          onChangeInput={handleChange}
+          onChange={handleChange}
           errorMessage={errors?.password}
         />
         <Field
@@ -68,7 +68,7 @@ export const Auth = () => {
           placeholder="Повторить пароль..."
           labelText="Повторите пароль"
           value={formData.confirmPassword}
-          onChangeInput={handleChange}
+          onChange={handleChange}
           errorMessage={errors?.confirmPassword}
         />
         <BaseButton ref={submitRef} type="submit" disabled={!isValid}>

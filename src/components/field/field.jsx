@@ -2,7 +2,6 @@ import styles from "./styles.module.scss";
 
 export const Field = ({
   id,
-  onChangeInput,
   labelText,
   errorMessage,
   ...props
@@ -15,7 +14,6 @@ export const Field = ({
       <input
         className={styles.field}
         id={id}
-        onChange={onChangeInput}
         {...props}
       />
       {errorMessage && (
