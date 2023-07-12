@@ -1,8 +1,4 @@
-import { Auth } from "./pages/auth/auth.page";
+import { Auth } from "./pages/auth";
 export default function App() {
-  return (
-    <div className="App">
-      <Auth />
-    </div>
-  );
+  return  <Auth />
 }
